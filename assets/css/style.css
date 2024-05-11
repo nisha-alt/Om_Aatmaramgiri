@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&family=Roboto+Mono:wght@100;200;300;500;700&family=Sacramento&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/* Universal Selector Section Start */
+.text-red{color:#592908;}
+.text-orange1{color:#FB6300 !important;}
+.text-yellow{color:#E8DD7F !important;}
+.text-yellow1{color:#F8BF0E;}
+.ms-140{margin-left:80px;}
+.bx-shadow{box-shadow: 0px 0px 8px 7px #f1f1f1;}
+
+/* Universal Selector Section End */
+
+/* Banner Section Start */
+.btn a{
+    background-color: #FB6300;
+    color:#ffff;
+    padding:15px 25px;
+    width:200px;
+    height:50px;
+    margin:auto !important;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    
+
+}
+.btn a:hover{
+
+    background-color:#F8BF0E;
+    padding:15px 25px;
+    width:200px;
+    height:50px;
+    color:#000000;
+
+}
+.banner-img{
+    height:80vh;
+    width:100%;
+    object-fit: cover;
+    /* margin:auto; */
+    /* width:50%; */
+}
+
+/* Banner Section End */
+
+/* about us section start */
+.about .abt-banner{
+    width:100%;
+    height:450PX;
+}
+.about .abt-text p{
+    
+    color:gray;
+    font-size:18px;
+    text-align: justify; 
+}   
+.btn-1{
+    background-color:#FB6300;;
+    color:#ffff;
+    padding:10px 15px;
+    border:0px;
+    font-weight: 600;
+    transition: ease 1s;
+}
+.btn-1:hover{
+    background-color:#F8BF0E;
+
+}
+/* about us section end */
+
+/* Product Section Start */
+.myproduct_img{
+    width:100%;
+    height:50vh;
+}
+
+/* Product Section End */
+
+/* contact us section start */
+.contact input[type="text"],input[type="email"]{
+    height: 50px;
+    border:2px solid lightgrey;
+}
+.contact form label{
+    font-size: 18px;
+    /* color:lightgray; */
+}
+.contact form textarea{
+    border:2px solid lightgrey;
+}
+.contact form .btn2{
+    background-color: #FB6300;
+    color:#ffff;
+    padding:10px 15px;
+    border:0;
+}
+.btn2:hover{
+    background-color: #F8BF0E;
+}
+/* contact us section end */
+
+/* footer section start */
+footer{
+    background:linear-gradient(rgba(91, 7, 91, 0.8), rgba(15, 37, 23, 0.8)),url('../img/banner7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.social-icons  a{text-decoration:none;font-size:20px;border:1px solid white;padding:7px 13px;color:white;}
+.social-icons  a:hover{background:white;color:black;}
+.copyright-section{border-top:1px solid white;}
+/* footer section end */
